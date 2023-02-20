@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            display: inline-block;
+        }
+
+        th,
+        td {
+            padding: 10px 20px;
+            border: 2px solid #000;
+        }
+
+        .info {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <table>
+            <tr>
+                <td>Заданное простое P
+                </td>
+
+                <td id="P"></td>
+            </tr>
+            <tr>
+                <td>Примитивный элемент конечного поля G
+                </td>
+                <td id="G"></td>
+            </tr>
+            <tr>
+                <td>(a)
+                </td>
+                <td id="a"></td>
+            </tr>
+            <tr>
+                <td>(b)
+                </td>
+                <td id="b"></td>
+            </tr>
+            <tr>
+                <td>Сгенерированный ключ Алисы (y)
+                </td>
+                <td id="y"></td>
+            </tr>
+            <tr>
+                <td>Сгенерированный ключ Боба (x)
+                </td>
+                <td id="x"></td>
+            </tr>
+            <tr>
+                <td>Обмен ключами Боба и Алисы
+                </td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Сгенерированный секретный ключ Алисы (Ka)
+                </td>
+                <td id="Ka"></td>
+            </tr>
+            <tr>
+                <td>Сгенерированный секретный ключ Боба (Kb)
+                </td>
+                <td id="Kb"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <form action="#" method="#" id="form">
+            <fieldset>
+                <legend>Генерировать ключи (KeyGen)
+                </legend>
+                <ul>
+                    <li>
+                        <label for="P">P
+                        </label>
+                        <input type="text" name="P" placeholder="" id="P">
+                    </li>
+                    <li>
+                        <label for="age">A
+
+                        </label>
+                        <input type="text" name="A" placeholder="" id="A">
+                    </li>
+                    <li>
+                        <label for="age">B
+
+                        </label>
+                        <input type="text" name="B" placeholder="" id="B">
+                    </li>
+                </ul>
+                <div>
+                    <button type="submit">Make it!</button>
+
+                </div>
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
